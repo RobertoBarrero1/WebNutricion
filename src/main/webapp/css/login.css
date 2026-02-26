@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:radial-gradient(rgb(119 191 120), rgb(48 77 48));
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.contenedor{
+    
+    border: 1px solid grey;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 2px 5px 5px black;
+}
+
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+img{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 160px;
+    
+}
+
+h2{
+    margin-bottom: 30px;
+    font-weight: 300px;
+}
+
+.input{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8;
+    padding: 0 15px;
+    background-color: #EEEEEE;
+
+}
+.input input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+}
+
+a{
+    margin-bottom: 20px;
+}
+
+.boton{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+.boton:active{
+    background-color:rgb(119 191 120) ;
+    
+}
+
+footer{
+    padding: 10px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    display: flex ;
+    flex-direction: row;
+}
+
+footer .ion-icon{
+
+    margin-left: 10px;
+}
+
+
+

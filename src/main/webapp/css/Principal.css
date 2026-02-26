@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+header{
+    border: 2px solid gray;
+    height: 120;
+    background-color: white;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.45);
+}
+
+.encabezado{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo{
+
+    width: 300px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+.foto-encabezado{
+
+    width: 200px;
+    height: 90px;
+    border: 2px solid red;
+    
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content:center;
+}
+
+.boton{
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+.boton:active{
+    background-color:rgb(119 191 120) ;
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background:radial-gradient(rgb(119 191 120), rgb(48 77 48));
+    flex-direction: column; 
+}
+
+.contenedor-general{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor-texto1{
+
+    width: 300px;
+    height: 500px;
+    background: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.45);
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.text1{
+    padding:20px;
+}
+
+.text1 h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.text1 p{
+    text-align:start;
+
+}
+
+.contenedor-texto2{
+
+    width: 970px;
+    height: 180px;
+    background: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.45);
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.text2{
+    padding:20px;
+}
+
+.text2 h2 {
+    
+    margin-bottom: 15px;
+    
+}
+
+.text2 p{
+    text-align:start;
+}
+
+.contenedor-fotos{
+
+    width: 970px;
+    height: 300px;
+    background: white;
+    margin-top: 80px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.45);
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.fotos{
+
+    height: 260px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: transform 0.4s ease;
+}
+
+.fotos:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    padding: 10px;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+}
