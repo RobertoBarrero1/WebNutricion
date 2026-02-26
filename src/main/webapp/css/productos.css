@@ -62,89 +62,34 @@ body{
 
 .contenedor-general{
 
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px;
+    padding: 30px;
 }
 
-.contenedor-texto1{
+.contenedor-producto{
 
-    width: 300px;
-    height: 500px;
     background: white;
-    margin-top: 50px;
-    margin-left: 20px;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.45);
     border: 2px solid gray;
     border-radius: 5px;
-}
-
-.text1{
-    padding:20px;
-}
-
-.text1 h2{
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.text1 p{
-    text-align:start;
-
-}
-
-.contenedor-texto2{
-
-    width: 970px;
-    height: 180px;
-    background: white;
-    margin-top: 50px;
-    margin-left: 20px;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.45);
-    border: 2px solid gray;
-    border-radius: 5px;
-}
-
-.text2{
-    padding:20px;
-}
-
-.text2 h2 {
-    
-    margin-bottom: 15px;
-    
-}
-
-.text2 p{
-    text-align:start;
-}
-
-.contenedor-fotos{
-
-    width: 970px;
-    height: 300px;
-    background: white;
-    margin-top: 80px;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.45);
-    border: 2px solid gray;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
-}
-
-.fotos{
-
-    height: 260px;
-    width: 300px;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
     transition: transform 0.4s ease;
 }
 
-.fotos:hover{
+.contenedor-producto:hover{
     transform: scale(1.05);
 }
+
+.contenedor-producto img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black ;
+}
+
 
 footer{
     padding: 10px;
