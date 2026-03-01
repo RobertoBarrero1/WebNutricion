@@ -85,10 +85,46 @@ body{
     transform: scale(1.05);
 }
 
-.contenedor-producto img{
-    width: 200px;
-    height: 200px;
-    border: 2px solid black ;
+.tabla-usuario{
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50; /* Un azul oscuro serio para admin */
+    color: white;
+}
+
+tr:hover {
+    background-color: #f9f9f9; /* Efecto cebra al pasar el ratón */
+}
+
+/* Botones de acción */
+.btn-edit {
+    background-color: #3498db;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
 }
 
 
